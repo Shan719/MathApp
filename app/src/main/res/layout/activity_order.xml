@@ -11,10 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ordering Numbers"
-        android:textSize="24sp"
-        android:layout_marginBottom="20dp"/>
+        android:textSize="23sp"
+        android:layout_marginBottom="20dp" />
 
-    <!-- Missing Buttons -->
     <Button
         android:id="@+id/btnGenerateOrder"
         android:layout_width="wrap_content"
@@ -22,9 +21,16 @@
         android:text="Generate Numbers" />
 
     <Button
-        android:id="@+id/btnSort"
+        android:id="@+id/btnSortAscending"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sort Numbers"
+        android:text="Sort Numbers Ascending"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnSortDescending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort Numbers Descending"
         android:layout_marginTop="10dp" />
 </LinearLayout>
